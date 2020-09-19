@@ -22,7 +22,8 @@
 
 - Feel free to create commands/events as you need on the bot, check the few already inside the bot. It works well!
 - Don't take credits for this bot or I might sue you 👀
-- have a nice day fella!
+- Also take a look at the LICENSE while you're at it ✨
+- Have a nice day fella!
 
 ### I hope you enjoy this small discord bot 💕
 
