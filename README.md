@@ -18,6 +18,12 @@
 - Run either `npm run dev` or `yarn dev`
 - It will compile and run the code instatly so that's all really! 😉
 
+#### Notes:
+
+- Feel free to create commands/events as you need on the bot, check the few already inside the bot. It works well!
+- Don't take credits for this bot or I might sue you 👀
+- have a nice day fella!
+
 ### I hope you enjoy this small discord bot 💕
 
 I'd be very pleased if you could ⭐ the bot!
