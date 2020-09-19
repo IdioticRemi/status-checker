@@ -1,0 +1,19 @@
+{
+  "extends": "eslint-config-bamboo",
+
+  "compilerOptions": {
+    "incremental": false,
+    "sourceMap": false,
+    "outDir": "./dist",
+    "target": "esnext",
+    "module": "commonjs",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@lib/*": ["./src/lib/*"],
+      "@root/*": ["./*"]
+    }
+  },
+  "include": ["./src/**/*", "./config.ts"],
+  "exclude": ["**/node_modules", "**/dist"]
+}

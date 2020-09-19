@@ -1,0 +1,36 @@
+{
+  "name": "cubiknode",
+  "version": "1.0.0",
+  "description": "Bot discord créer pour utilisation professionnelle par CubikNode",
+  "main": "dist/index.js",
+  "author": "Thomas J. / Kizuru",
+  "license": "N/A",
+  "private": true,
+  "scripts": {
+    "start": "node dist/src/index.js",
+    "build": "tsc",
+    "dev": "yarn build && yarn start"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.0",
+    "@types/tcp-ping": "^0.1.0",
+    "@types/ws": "^7.2.2",
+    "@typescript-eslint/eslint-plugin": "^2.22.0",
+    "@typescript-eslint/parser": "^2.22.0",
+    "eslint": "^6.8.0",
+    "eslint-config-bamboo": "^3.0.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "discord.js": "^12.0.1",
+    "fs-nextra": "^0.4.7",
+    "module-alias": "^2.2.2",
+    "moment": "^2.24.0",
+    "tcp-ping": "^0.1.1"
+  },
+  "_moduleAliases": {
+    "@": "dist/src",
+    "@lib": "dist/src/lib",
+    "@root": "dist"
+  }
+}

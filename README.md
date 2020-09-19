@@ -1,0 +1,3 @@
+# Discord Bot: Status Checker!
+
+Coming later...
