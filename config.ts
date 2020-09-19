@@ -48,7 +48,7 @@ export const servers = new Map();
 
 servers.set('Sites WEB', [
 	new Server('Discord FR', 'discord.fr'),
-	new Server('Kizuru.dev', 'kizuru.dev'),
+	new Server('Kizuru.fr', 'kizuru.fr'),
 	new Server('Google', 'google.com')
 ]);
 
